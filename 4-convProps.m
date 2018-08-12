@@ -77,3 +77,5 @@ ylabel('amplitude-axis');
 %Still Not claculated Let me ask
 
 
+
+
