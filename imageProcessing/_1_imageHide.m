@@ -20,7 +20,7 @@ alpha2=input('enter the value of alpha:');
 
 for i=1:m
   for j=1:n
-    cl1(i,j)=(1-alpha)*a(i,j) + alpha*b(i,j);
+    cl1(i,j)=(1-alpha2)*a(i,j) + alpha2*b(i,j);
   end
 end
 
