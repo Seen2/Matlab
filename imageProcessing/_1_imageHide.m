@@ -16,7 +16,7 @@ for i=1:m
 end
 
 
-alpha=input('enter the value of alpha:');
+alpha2=input('enter the value of alpha:');
 
 for i=1:m
   for j=1:n
@@ -30,6 +30,8 @@ subplot(2,2,1),imshow(a) , title('Image 1')
 
 subplot(2,2,2),imshow(b) , title('Image 2')
 
-subplot(2,2,3),imshow(cl) , title('Blended Image')
-subplot(2,2,4),imshow(cl1) , title('Blended Image')
+subplot(2,2,3),imshow(cl) , title('Blended Image 1')
 xlabel(sprintf('alpha value is %g',alpha))
+
+subplot(2,2,4),imshow(cl1) , title('Blended Image 2')
+xlabel(sprintf('alpha value is %g',alpha2))
