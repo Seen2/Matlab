@@ -4,7 +4,7 @@ close all;
 
 a=imread('Mouse.jpg')
 
-b=imread('Cat.jpg');
+b=imread('Cameraman.jpg');
 
 [m,n]=size(a);
 alpha=input('enter the value of alpha:');
