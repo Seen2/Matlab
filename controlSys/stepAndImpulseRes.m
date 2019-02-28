@@ -4,9 +4,9 @@
 %Determine all all the poles and zero by pole-zero plot.
 %Determine step responses and impulse responses of the system.
 
-zie=input('enter zy:')
-num=[8]
-den=[1 0.8*(zie) 8]
+zie=input('enter zy:') % damping cofficient
+num=[9]
+den=[1 6*(zie) 9] %s^2 +2s*naturalfreq*zie + (naturalfreq)^2 
 
 sys=tf(num,den) % transfer function.
 
