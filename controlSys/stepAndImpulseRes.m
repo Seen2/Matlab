@@ -3,6 +3,11 @@
 %and representit in matlab.
 %Determine all all the poles and zero by pole-zero plot.
 %Determine step responses and impulse responses of the system.
+%zie(damping cofficient) 
+  %<1 ==> uder damped
+  %>1 ==> over damped
+  %=1 ==> critical damped
+  %=0 ==> undamped
 
 zie=input('enter zy:') % damping cofficient
 num=[9]
